@@ -1,4 +1,4 @@
-# Ping ME
+# SimplePush
 get api for pushbullet
 
 ## setup
@@ -8,7 +8,7 @@ get api for pushbullet
 - add `AUTH_KEY` to AWS env_vars
 
 ## usage
-get `/ping?`
+get `/push?`
 
 params:
 - `type` - (optional, defaults to note) see [docs](https://pypi.python.org/pypi/pushbullet.py#pushing-things)
