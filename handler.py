@@ -2,7 +2,7 @@ import json
 import os
 from pushbullet import Pushbullet
 
-def ping(event, context):
+def push(event, context):
     pb = Pushbullet(os.environ["PUSHBULLET_API_KEY"])
     auth_key = os.environ["AUTH_KEY"]
     query = event['queryStringParameters']

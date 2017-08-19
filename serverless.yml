@@ -1,4 +1,4 @@
-service: ping-me
+service: SimplePush
 
 frameworkVersion: ">=1.2.0 <2.0.0"
 
@@ -8,8 +8,8 @@ provider:
 
 functions:
   currentTime:
-    handler: handler.ping
+    handler: handler.push
     events:
       - http:
-          path: ping
+          path: push
           method: get
