@@ -13,3 +13,6 @@ functions:
       - http:
           path: push
           method: get
+    environment:
+      PUSHBULLET_API_KEY: ${env:PUSHBULLET_API_KEY}
+      AUTH_KEY: ${env:AUTH_KEY}
